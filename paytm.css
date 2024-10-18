@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+.header{
+    height: 13vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 5px 12px 5px rgba(63, 62, 62, 0.1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+.paytm-icon{
+    height: 45px;
+}
+.menus{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.menus>p{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 0 15px;
+    color: rgb(80, 80, 80);
+}
+.signin{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(80, 80, 80);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.sign-btn{
+    background-color: #00baf2;
+    padding: 10px 40px 10px 15px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+.signin>img{
+    position: absolute;
+    right: 1px;
+    width: 35px;
+}
+.section{
+    height: 5vh;
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:  13vh;
+}
+.section>p{
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+
+}
+.section .text-dec{
+    text-transform: lowercase;
+    font-weight: 300;
+    color: rgb(78, 78, 78);
+}
+.emoji{
+    font-size: 20px;
+    margin: auto;
+}
+.main{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 450px;
+    margin: auto;
+}
+.content h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 18px;
+    padding-right: 35px;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: rgb(61, 61, 61);
+}
+.button-div{
+    width: auto;
+    padding: 15px 0;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px 20px;
+    color: white;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.button img{
+    fill: white;
+}
+button{
+    text-decoration:none;
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: white;
+}
+.logo-div img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.right-sec img{
+    width: 500px;
+    float: right;
+}
